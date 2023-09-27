@@ -21,5 +21,5 @@ app.use('/', express.static(folderPath), serveIndex(folderPath, {
 
 
 app.listen(port, () => {
-    console.log(`Example app listening at http://localhost:${port}`);
+    console.log(`File sharing server is up and listening at http://localhost:${port}`);
 });
